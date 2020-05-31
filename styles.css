@@ -30,12 +30,12 @@ background-position: top center;
     text-transform: uppercase;
 }
 
-h1{
+.slider-hat{
     font-size: 55px;
     line-height: 55px;
     color: #000000;
 }
-.under-header{
+.hat-description{
     font-size: 16px;
     line-height: 24px;
     color:#283136;
@@ -49,4 +49,10 @@ header{
       line-height: 18px;
       color: #000000; /*ПОТОМ ИЗМЕНИТЬ*/
       text-transform: uppercase;
+      height: 50px;
+    width: 240px;
+    background-color: #fb565a;
+    border-radius: 3%;
+    display: inline-block;
   }
+ 
