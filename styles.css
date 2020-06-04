@@ -11,6 +11,12 @@ color: black;
 background-color:white;
 background-position: top center;
 }
+li{
+    list-style-type: none;
+}
+.main-header{
+    margin-bottom: 1px;
+}
 
 .main-navigation{
     font-size: 16px;
@@ -19,11 +25,39 @@ background-position: top center;
 .main-navigation a{
     color: #000000;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
 }
-
+.main-header-logo{
+width: 160px;
+height: 65px;
+}
+.main-navigation-wrapper{
+    width: 100%;
+    margin-bottom: 40x;
+    background-color: #eeeeee;
+}
+.main-navigation-wrapper .container{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 1160;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-navigation{
+    width: 440px;
+    margin: 0;
+    padding: 0;
+}
 .order-list{
+    width: 160px;
     font-size: 16px;
     line-height: 30px;
+    margin: 0;
+    padding: 0;
+    justify-content: left;
 }
 .order-list a{
     color: #000000;
