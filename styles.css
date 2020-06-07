@@ -30,7 +30,6 @@ li{
     color: #000000;
     text-transform: uppercase;
 }
-
 .slider-hat{
     font-size: 55px;
     line-height: 55px;
@@ -41,17 +40,14 @@ li{
     line-height: 24px;
     color:#283136;
 }
-
-header{
-    background-color: #eeeeee;
-}
   .learn-more{
       font-size: 16px;
       line-height: 18px;
-      color: #000000; /*ПОТОМ ИЗМЕНИТЬ*/
+      color: #ffffff; /*ПОТОМ ИЗМЕНИТЬ*/
       text-transform: uppercase;
       height: 50px;
     width: 240px;
+    text-align: center;
     background-color: #fb565a;
     border-radius: 3px;
     display: inline-block;
@@ -138,3 +134,39 @@ b{
 .sub{
     text-align: top;
 }
+
+.contacts-head{
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.contacts-address{
+    font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+}
+.contact-button{
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #eeeeee;
+    width: 220px;
+    height: 50px;
+    background-color: #fb565a;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+}
+/* FOOTER */
+.footer-text-header{
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+}
+.promo{
+    font-size: 16px;
+    line-height: 22px;
+    color: #444444;
+}
+/*------------------*/

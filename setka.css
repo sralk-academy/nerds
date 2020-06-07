@@ -1,9 +1,6 @@
 li{
     list-style-type: none;
 }
-/*.main-header{
-    <margin-bottom: 40px;>
-}*/
 .main-navigation{
     display: flex;
     align-items: center;
@@ -14,7 +11,6 @@ li{
     }
 .main-navigation-wrapper{
     width: 100%;
-    margin-bottom: 40x;
     background-color: #eeeeee;
 }
 .main-navigation-wrapper .container{
@@ -37,9 +33,33 @@ li{
     padding: 0;
     justify-content: left;
 }
+.advantages{
+    width: 1160px;
+    height: 415px;
+    margin-bottom: 80px;
+}
+.ggg{
+    background-color: #eeeeee;
+    width: 100%;
+}
+.switch-slides{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.slider-hat{
+    width: 380px;
+}
+.hat-description{
+    width: 380px;
+}
+.slide1{
+width: 750px;
+}
 .order-content{
     margin-top: 0;
     padding: 0;
+    padding-bottom: 80px;
     width: 1100px;
     height: 350px;
     display: flex;
@@ -71,7 +91,7 @@ justify-content: space-between;
 }
 .qualities{
     padding: 0;
-    margin-top: 50px;
+    padding-top: 40px;
     width: 360px;
     height: 100px;
     display: flex;
@@ -89,6 +109,8 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
 }
+
+
 .logo1{
     width: 280px;
     height: 180px;
@@ -105,3 +127,71 @@ justify-content: space-between;
     width: 280px;
     height: 180px;
 }
+
+
+/* КАРТА */
+.contacts{
+    margin-top: 135px;
+    width: 320px;
+    height: 315px;
+    background-color: #ffffff;
+    position: absolute;
+    text-align: center;
+}
+.map{
+    margin-top: 80px;
+    width: 100%;
+    height: 420px;
+    margin-bottom: 70px;
+}
+.marker{
+    padding-left: 675px;
+    padding-top: 115px;
+    position: absolute;
+}
+/*-----------------------*/
+
+
+/* FOOTER */
+.social{
+    width: 960px;
+    height: 80px;
+    padding: 0;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-social{
+    width: 260px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.vk{
+    height: 80px;
+    width: 80px;
+    background-color: #e1e1e1;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.fb{
+    height: 80px;
+    width: 80px;
+    background-color: #e1e1e1;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.insta{
+    height: 80px;
+    width: 80px;
+    background-color: #e1e1e1;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+}
+/*-------------------------------*/
