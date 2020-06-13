@@ -14,7 +14,7 @@ background-position: top center;
 li{
     list-style-type: none;
 }
-.main-navigation{
+.site-navigation{
     font-size: 16px;
     line-height: 30px;
 }
@@ -29,6 +29,8 @@ li{
 .order-list a{
     color: #000000;
     text-transform: uppercase;
+    display: block;
+    padding: 2px 20px;
 }
 .slider-hat{
     font-size: 55px;
@@ -140,6 +142,7 @@ b{
     line-height: 30px;
     color: #000000;
     text-transform: uppercase;
+    margin-top: 50px;
 }
 .contacts-address{
     font-size: 16px;
@@ -157,6 +160,7 @@ b{
     display: inline-block;
     text-align: center;
     border-radius: 3px;
+    margin-top: 30px;
 }
 /* FOOTER */
 .footer-text-header{

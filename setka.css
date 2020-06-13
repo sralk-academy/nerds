@@ -1,9 +1,23 @@
 li{
     list-style-type: none;
 }
-.main-navigation{
+header{
+    background-color: #eeeeee;
+}
+.site-navigation{
     display: flex;
     align-items: center;
+    width: 640px;
+}
+.site-navigation a{
+    padding:2px 35px;
+    display: block;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.order-list a:hover,
+.order-list a:focus{
+    background-color: red;
 }
 .main-header-logo{
     width: 160px;
@@ -22,16 +36,10 @@ li{
     margin: 0 auto;
     padding: 0 20px;
 }
-.site-navigation{
-    width: 440px;
-    margin: 0;
-    padding: 0;
-}
 .order-list{
-    width: 160px;
-    margin: 0;
+    max-width: 160px;
+    margin-top: 17px;
     padding: 0;
-    justify-content: left;
 }
 .advantages{
     width: 1160px;
@@ -104,12 +112,16 @@ justify-content: space-between;
     height: 180px;
 }
 .partners-list{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-between;
+    opacity: 1;
 }
-
+.partners-list img:hover,
+.partners-list img:focus{
+    opacity: 0.5;
+}
 
 .logo1{
     width: 280px;
@@ -136,8 +148,12 @@ justify-content: space-between;
     height: 315px;
     background-color: #ffffff;
     position: absolute;
-    text-align: center;
+    text-align: center
 }
+.contacts-address{
+    text-align: left;
+    padding-left: 65px;
+}   
 .map{
     margin-top: 80px;
     width: 100%;
@@ -193,5 +209,9 @@ justify-content: space-between;
     border-radius: 100%;
     display: inline-block;
     text-align: center;
+}
+.footer-social a:hover,
+.footer-social a:focus{
+    background-color: red;
 }
 /*-------------------------------*/
