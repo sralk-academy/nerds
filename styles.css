@@ -162,6 +162,16 @@ b{
     border-radius: 3px;
     margin-top: 30px;
 }
+.write-header{
+    font-size: 45px;
+    line-height: 45px;
+    color: #000000;
+}
+.write-data{
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
 /* FOOTER */
 .footer-text-header{
     font-size: 36px;
