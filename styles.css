@@ -167,6 +167,32 @@ b{
     line-height: 45px;
     color: #000000;
 }
+.send-button{
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #eeeeee;
+    width: 220px;
+    height: 50px;
+    background-color: #fb565a;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.close-button{
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #eeeeee;
+    width: 220px;
+    height: 50px;
+    background-color: #fb565a;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 30px;
+}
 .write-data{
     font-size: 16px;
     line-height: 18px;
