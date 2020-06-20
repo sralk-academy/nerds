@@ -41,31 +41,65 @@ header{
     margin-top: 17px;
     padding: 0;
 }
-.advantages{
+.services{
     width: 1160px;
-    height: 415px;
-    margin-bottom: 80px;
+    /*height: 430px;*/
 }
-.ggg{
-    background-color: #eeeeee;
-    width: 100%;
-}
-.switch-slides{
+.switch__slides{
     padding: 0;
+}
+.placing{
     display: flex;
     justify-content: space-between;
 }
-.slider-hat{
+.services__header1{
     width: 380px;
 }
-.hat-description{
-    width: 380px;
+.services__underheader1{
+    width: 360px;
 }
-.slide1{
-width: 750px;
+.slide__image1{
+    width: 760px;
+    height: 430px;
 }
+.slide1-show{
+display: none;
+}
+.services__header2{
+    width: 515px;
+}
+.services__underheader2{
+    width: 410px;
+}
+.slide__image2{
+    width: 760px;
+    height: 430px;
+}
+.slide2{
+display: none;
+}
+.slide2-show{
+    display: inline;
+    }
+.services__header3{
+    width: 410px;
+}
+.services__underheader3{
+    width: 360px;
+}
+.slide__image3{
+    width: 760px;
+    height: 430px;
+}
+.slide3{
+    display: none;
+}
+.slide3-show{
+    display: inline;
+    }
+
 .order-content{
-    margin-top: 0;
+    margin-top: 80px;
     padding: 0;
     padding-bottom: 80px;
     width: 1100px;
