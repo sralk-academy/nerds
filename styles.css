@@ -21,6 +21,7 @@ li{
 .main-navigation a{
     color: #000000;
     text-transform: uppercase;
+    margin-top: 40px;
 }
 .order-list{
     font-size: 16px;
@@ -70,9 +71,14 @@ li{
     width: 240px;
     height: 50px;
     background-color: #fb565a;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px;
+}
+.learn__more:hover{
+    background-color: #dd4f52;
+    transition: 0.3s;
 }
 h2{
     font-size: 24px;
@@ -92,9 +98,14 @@ h2{
     width: 160px;
     height: 50px;
     background-color: #fb565a;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px;
+}
+.order-button-one:hover{
+    background-color: #dd4f52;
+    transition: 0.3s;
 }
 .order-button-two{
     font-size: 16px;
@@ -104,9 +115,14 @@ h2{
     width: 160px;
     height: 50px;
     background-color: #00ca74;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px;
+}
+.order-button-two:hover{
+    background-color: #00af63;
+    transition: 0.3s;
 }
 .order-button-three{
     font-size: 16px;
@@ -116,9 +132,14 @@ h2{
     width: 160px;
     height: 50px;
     background-color: #efc84a;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px;
+}
+.order-button-three:hover{
+    background-color: #ddba47;
+    transition: 0.3s;
 }
 .studio-header{
     font-size: 45px;
@@ -135,11 +156,13 @@ h3{
     line-height: 24px;
     color: #000000;
     text-transform: uppercase;
+    margin-top: 40px;
 }
 .studio-development{
     font-size: 16px;
     line-height: 24px;
     color: #283136;
+    padding: 0px;
 }
 .qualities{
     font-size: 16px;
@@ -176,10 +199,16 @@ b{
     width: 220px;
     height: 50px;
     background-color: #fb565a;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px;
     margin-top: 30px;
+    margin-left: 50px;
+}
+.contact-button:hover{
+    background-color: #dd4f52;
+    transition: 0.3s;
 }
 .write-header{
     font-size: 45px;
@@ -194,12 +223,14 @@ b{
     width: 220px;
     height: 50px;
     background-color: #fb565a;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px;
     margin-top: 30px;
 }
 .close-button{
+    margin-left: 50px;
     font-size: 16px;
     line-height: 18px;
     text-transform: uppercase;
@@ -207,10 +238,19 @@ b{
     width: 220px;
     height: 50px;
     background-color: #fb565a;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px;
     margin-top: 30px;
+}
+.send-close{
+    display: flex;
+}
+.close-button:hover,
+.send-button:hover{
+    background-color: #dd4f52;
+    transition: 0.3s;
 }
 .write-data{
     font-size: 16px;

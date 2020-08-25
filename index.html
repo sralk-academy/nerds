@@ -16,10 +16,10 @@
                     <a class="main-header-logo" href="#">
                         <img src="img/logo/nerds-logo.svg" alt="Логотип Нердс"></a>
                     <ul class="site-navigation">
-                        <li><a href="studio.html">Студия</a></li>
-                        <li><a href="clients.html">Клиенты</a></li>
-                        <li><a href="shop.html">Магазин</a></li>
-                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="#">Студия</a></li>
+                        <li><a href="#">Клиенты</a></li>
+                        <li><a href="#">Магазин</a></li>
+                        <li><a href="#">Контакты</a></li>
                     </ul>
                     <p>
                     <ul class="order-list">
@@ -33,50 +33,56 @@
         </nav>
         </p>
         <main class="container">
-            <section class="services">
-                <ul class="switch__slides">
-                    <div class="slide1">
-                        <div class="placing">
-                            <li>
-                                <p class="services__header1">Долго, дорого, скрупулезно.</p>
-                                <p class="services__underheader1">Математически выверенный дизайн<br>
-                                    для вашего сайта или мобильного приложения</p>
-                                <a class="learn__more" href="#">Узнать больше</a> <br> <br>
-                                <input name="slider1" type="radio">
-                                <input name="slider2" type="radio">
-                                <input name="slider3" type="radio">
-                            </li>
-                            <img class="slide__image" src="img/nerds-index-slide1.png" alt="">
+            <div class="slider">
+                <input type="radio" id="btn-1" name="toggle" checked>
+                <input type="radio" id="btn-2" name="toggle">
+                <input type="radio" id="btn-3" name="toggle">
+                <div class="slider__controls">
+                    <label for="btn-1"></label>
+                    <label for="btn-2"></label>
+                    <label for="btn-3"></label>
+                </div>
+                <div class="slider__wrapper">
+                    <div class="slider__list">
+                        <div class="slider__item">
+                            <div class="placing">
+                                <li>
+                                    <p class="services__header1">Долго, дорого, скрупулезно.</p>
+                                    <p class="services__underheader1">Математически выверенный дизайн<br>
+                                        для вашего сайта или мобильного приложения</p>
+                                    <a class="learn__more" href="#">Узнать больше</a> <br> <br>
+                                </li>
+                                <img class="slide__image1" src="img/nerds-index-slide1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="placing">
+                                <li>
+                                    <p class="services__header2">Любим математику как никто другой</p>
+                                    <p class="services__underheader2">Никакого креатива, только математические
+                                        формулы для расчета идеальных пропорций.</p>
+                                    <a class="learn__more" href="#">Узнать больше</a>
+                                </li>
+                                <img class="slide__image2" src="img/nerds-index-slide2.png" alt="">
+                            </div>
+                            <img src="img/nerds-index-slide2.png">
+                        </div>
+                        <div class="slider__item">
+                            <div class="placing">
+                                <li>
+                                    <p class="services__header3">Только ночь, только хардкор</p>
+                                    <p class="services__underheader3">Работать днем, как все? Мы против этого.
+                                        Ближе к полуночи работа только начинается.</p>
+                                    <a class="learn__more" href="#">Узнать больше</a>
+                                </li>
+                                <img class="slide__image3" src="img/nerds-index-slide3.png" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="slide2">
-                        <div class="placing">
-                            <li>
-                                <p class="services__header2">Любим математику как никто другой</p>
-                                <p class="services__underheader2">Никакого креатива, только математические
-                                    формулы для расчета идеальных пропорций.</p>
-                                <a class="learn__more" href="#">Узнать больше</a>
-                            </li>
-                            <img class="slide__image2" src="img/nerds-index-slide2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="slide3">
-                        <div class="placing">
-                            <li>
-                                <p class="services__header3">Только ночь, только хардкор</p>
-                                <p class="services__underheader3">Работать днем, как все? Мы против этого.
-                                    Ближе к полуночи работа только начинается.</p>
-                                <a class="learn__more" href="#">Узнать больше</a>
-                            </li>
-                            <img class="slide__image3" src="img/nerds-index-slide3.png" alt="">
-                        </div>
-                    </div>
-                </ul>
-            </section>
+                </div>
+            </div>
         </main>
-
     </header>
-
 
     <main class="container">
         <section class="order">
@@ -107,7 +113,9 @@
                 </li>
             </ul>
         </section>
+        <span class="line">
 
+        </span>
         <section class="studio">
             <div class="studio-bio">
                 <p class="studio-header">Мы - маленькая, но гордая
@@ -117,14 +125,14 @@
                     превыше всего креатива. Работаем не покладая рук, как роботы.</p>
                 <h3>Выполняем заказы на разработку:</h3>
                 <ul class="studio-development">
-                    <li>Веб-сайтов любой сложности</li><br>
-                    <li>Мобильный приложений для iOS и Android</li><br>
-                    <li>Слайдшоу и видео для корпоративных презентаций</li>
+                    <li><span class="redline"></span> Веб-сайтов любой сложности</li><br>
+                    <li><span class="redline"></span> Мобильный приложений для iOS и Android</li><br>
+                    <li><span class="redline"></span> Слайдшоу и видео для корпоративных презентаций</li>
                 </ul>
             </div>
 
             <div class="studio-bio-two">
-                <img src="img/nerds-illustration.jpg" alt="" />
+                <img class="nerds__i" src="img/nerds-illustration.jpg" alt="" />
                 <h3>С 2004 года любим точность во всем:</h3>
                 <div class="studio-bio-two-guarantee">
                     <ul class="qualities">
@@ -142,14 +150,25 @@
             </div>
         </section>
 
+        <span class="line2"></span>
+
         <section class="partners">
             <ul class="partners-list">
-                <li class="logo1"><img src="img/logo/logo-htmlacademy.png" alt /></li>
-                <li class="logo2"><img src="img/logo/logo-borodinski.png" alt /></li>
-                <li class="logo3"><img src="img/logo/logo-pink.png" alt /></li>
-                <li class="logo4"><img src="img/logo/mishka.png" alt /></li>
+                <a href="https://htmlacademy.ru/" target="new">
+                    <li class="logo1"><img src="img/logo/logo-htmlacademy.png" alt /></li>
+                </a>
+                <a href="https://htmlacademy.ru/" target="new">
+                    <li class="logo2"><img src="img/logo/logo-borodinski.png" alt /></li>
+                </a>
+                <a href="https://htmlacademy.ru/" target="new">
+                    <li class="logo3"><img src="img/logo/logo-pink.png" alt /></li>
+                </a>
+                <a href="https://htmlacademy.ru/" target="new">
+                    <li class="logo4"><img src="img/logo/mishka.png" alt /></li>
+                </a>
             </ul>
         </section>
+        <span class="line3"></span>
     </main>
     </main>
 
@@ -177,36 +196,38 @@
             <div class="name-email">
                 <div class="namename">
                     <span class="write-data">Ваше имя:</span>
-                    <input class="name" placeholder="Имя Фамилия" type="text">
+                    <textarea class="name" placeholder="Имя Фамилия" type="text"></textarea>
                 </div>
                 <div class="emailemail">
                     <span class="write-data">Ваш E-mail:</span>
-                    <input class="E-mail" placeholder="email@example.com" type="email">
+                    <textarea class="E-mail" placeholder="email@example.com" type="email"></textarea>
                 </div>
             </div>
             <div class="letterletter">
                 <span class="write-data">Текст письма:</span>
-                <input class="letter" placeholder="В свободной форме" type="text">
+                <textarea class="letter" placeholder="В свободной форме" type="text"></textarea>
             </div>
-            <a class="send-button" href="#">Отправить</a>
-            <a class="close-button" href="#">Закрыть</a>
+            <div class="send-close">
+                <a class="send-button" href="#">Отправить</a>
+                <a class="close-button" href="#">Закрыть</a>
+            </div>
         </form>
     </section>
     <div class="container">
         <footer class="social">
             <ul class="footer-social">
                 <li>
-                    <a class="vk" href="vk.com/nerds">
+                    <a class="vk" href="https://vk.com/nerds" target="new">
                         <img src="img/icons/vk-icon.svg" alt="vk">
                     </a>
                 </li>
                 <li>
-                    <a class="fb" href="facebook.com/nerds">
+                    <a class="fb" href="https://facebook.com/nerds" target="new">
                         <img src="img/icons/fb-icon.svg" alt="fb">
                     </a>
                 </li>
                 <li>
-                    <a class="insta" href="instagram.com/nerds">
+                    <a class="insta" href="https://instagram.com/nerds" target="new">
                         <img src="img/icons/insta-icon.svg" alt="insta">
                     </a>
                 </li>
@@ -225,7 +246,7 @@
         var cont = document.querySelector(".contact-button");
         var contOpen = document.querySelector(".write__us");
         var close = document.querySelector(".close-button");
-        
+
         cont.addEventListener("click", function (evt) {
             evt.preventDefault();
             contOpen.classList.add("write__us-show");
@@ -243,8 +264,7 @@
                     contOpen.classList.remove("write__us-show")
                 }
             }
-        })
-
+        });
     </script>
 </body>
 
