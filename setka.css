@@ -200,7 +200,8 @@ justify-content: space-between;
     left: 0;
     width: 900px;
     height: 500px;
-    background-color: pink;
+    background-color:white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
 .name-email{
     width: 760px;
@@ -274,26 +275,38 @@ justify-content: space-between;
 
 
 /* FOOTER */
+.footer-text-header{
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+}
+.promo{
+    font-size: 16px;
+    line-height: 22px;
+    color: #444444;
+}
 .social{
     margin-top: 50px;
     width: 960px;
-    height: 50px;
-    padding: 0;
-    margin-bottom: 70px;
+    height: 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 .footer-social{
+    margin: 0;
+    padding: 0;
     width: 260px;
     height: 80px;
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: space-between;
 }
+.footer-text{
+    width: 560px;
+    height: 80px;
+}
 .vk{
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     background-color: #e1e1e1;
     border-radius: 100%;
     display: flex;
@@ -301,8 +314,8 @@ justify-content: space-between;
     justify-content: center;
 }
 .fb{
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     background-color: #e1e1e1;
     border-radius: 100%;
     display: flex;
@@ -310,8 +323,8 @@ justify-content: space-between;
     justify-content: center;
 }
 .insta{
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     background-color: #e1e1e1;
     border-radius: 100%;
     display: flex;
