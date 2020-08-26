@@ -74,7 +74,7 @@ header{
     width: 410px;
 }
 .slide__image2{
-    width: 760px;
+    width: 640px;
     height: 430px;
 }
 .slide2{
@@ -180,13 +180,14 @@ justify-content: space-between;
     background-color: #ffffff;
     position: absolute;
     text-align: center;
+    box-shadow: 0px 0px 2px rgba(0,0,0,.8);
 }
 .contacts-address{
     text-align: left;
     padding-left: 65px;
 }   
 .write__us{
-    padding: 30px;
+    padding-right: 100px;
     padding-left: 100px;
     margin-left: 100px;
     display: none;
@@ -198,10 +199,10 @@ justify-content: space-between;
     position: fixed;
     top: 5%;
     left: 0;
-    width: 900px;
+    width: 760px;
     height: 500px;
     background-color:white;
-    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    box-shadow: 0 0 15px rgba(90, 70, 70, 0.7);
 }
 .name-email{
     width: 760px;
@@ -210,6 +211,7 @@ justify-content: space-between;
     justify-content: space-between;
 }
 .name{
+    resize: none;
     width: 360px;
     height: 46px;
 }
@@ -218,6 +220,7 @@ justify-content: space-between;
     height: 80px;
 }
 .E-mail{
+    resize: none;
     width: 360px;
     height: 46px;
 }
@@ -226,6 +229,7 @@ justify-content: space-between;
     height: 80px;
 }
 .letter{
+    resize: none;
     width: 760px;
     height: 115px;
     text-align: start;
